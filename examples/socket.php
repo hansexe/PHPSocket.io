@@ -14,5 +14,4 @@ $io->on('connection', function($socket)use($io){
   $io->emit('chat message', "funciona pelada");
 });
 
-
 Worker::runAll();
